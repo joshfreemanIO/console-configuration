@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+source ./zsh_config
+source ./paths
+source ./alias
+source ./functions
+source ./gpg

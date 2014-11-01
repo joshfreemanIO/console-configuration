@@ -1,0 +1,27 @@
+#!/bin/sh
+
+alias g="git"
+alias gitcommit="git add -A .; git commit -v"
+
+# cd to project directories
+alias cdc="clear; cd ~/Projects/grok/captix-events"
+alias cdb="clear; cd ~/Projects/grok/dell-events/dell-events-backend"
+alias cdf="clear; cd ~/Projects/grok/dell-events/dell-events-frontend"
+alias cdg="clear; cd ~/Projects/grok"
+
+# cd to vagrant directories
+alias cdv="clear; cd ~/Vagrant/captix"
+alias cdve="clear; cd ~/Vagrant/dell-event.dev"
+
+alias clip="xclip -selection clipboard"
+alias ll="clear;ls -al;"
+
+# PHPUnit binding
+alias phpunit="php ~/Projects/grok/captix-events/vendor/bin/phpunit"
+
+# Composer binding
+alias composer="php ~/.composer/composer.phar"
+
+alias ^L="clear;"
+
+alias cdcr="clear; cd ~/Projects/grok/ruby-captix-events"
