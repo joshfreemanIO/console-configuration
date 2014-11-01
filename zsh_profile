@@ -1,7 +1,8 @@
 #!/bin/zsh
 
-source ./zsh_config
-source ./paths
-source ./alias
-source ./functions
-source ./gpg
+DIR=$HOME/console-configuration
+
+source $DIR/zsh_config
+source $DIR/paths
+source $DIR/aliases
+source $DIR/functions
