@@ -50,13 +50,12 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(brew composer git github gpg-agent laravel ruby gem osx node npm terminalapp)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/josh/.rvm/gems/ruby-2.1.3/bin:/Users/josh/.rvm/gems/ruby-2.1.3@global/bin:/Users/josh/.rvm/rubies/ruby-2.1.3/bin:/Users/josh/npm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Users/josh/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
